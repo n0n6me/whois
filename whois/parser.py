@@ -343,7 +343,7 @@ class WhoisEntry(dict):
         elif domain.endswith('.sg'):
             return WhoisSG(domain, text)
         elif domain.endswith('.ooo'):
-            return WhoisOOO(domain, text)
+            return WhoisOoo(domain, text)
         elif domain.endswith('.market'):
             return WhoisMarket(domain, text)
         else:
